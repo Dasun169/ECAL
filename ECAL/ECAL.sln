@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECAL", "ECAL\ECAL.csproj", "{F92579F5-48BD-4D50-BA60-D94AB81090CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F92579F5-48BD-4D50-BA60-D94AB81090CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92579F5-48BD-4D50-BA60-D94AB81090CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92579F5-48BD-4D50-BA60-D94AB81090CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92579F5-48BD-4D50-BA60-D94AB81090CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBC4BA5F-11DD-4E2C-BB86-D26F01DC225E}
+	EndGlobalSection
+EndGlobal
