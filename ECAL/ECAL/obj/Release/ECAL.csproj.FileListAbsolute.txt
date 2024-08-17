@@ -1,0 +1,11 @@
+C:\Projects\ECAL\ECAL\ECAL\bin\Release\ECAL.exe.config
+C:\Projects\ECAL\ECAL\ECAL\bin\Release\ECAL.exe
+C:\Projects\ECAL\ECAL\ECAL\bin\Release\ECAL.pdb
+C:\Projects\ECAL\ECAL\ECAL\obj\Release\ECAL.csproj.AssemblyReference.cache
+C:\Projects\ECAL\ECAL\ECAL\obj\Release\ECAL.Form1.resources
+C:\Projects\ECAL\ECAL\ECAL\obj\Release\ECAL.Form2.resources
+C:\Projects\ECAL\ECAL\ECAL\obj\Release\ECAL.Properties.Resources.resources
+C:\Projects\ECAL\ECAL\ECAL\obj\Release\ECAL.csproj.GenerateResource.cache
+C:\Projects\ECAL\ECAL\ECAL\obj\Release\ECAL.csproj.CoreCompileInputs.cache
+C:\Projects\ECAL\ECAL\ECAL\obj\Release\ECAL.exe
+C:\Projects\ECAL\ECAL\ECAL\obj\Release\ECAL.pdb

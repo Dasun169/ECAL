@@ -8,3 +8,4 @@ C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.csproj.GenerateResource.cache
 C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.csproj.CoreCompileInputs.cache
 C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.exe
 C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.pdb
+C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.Form2.resources
