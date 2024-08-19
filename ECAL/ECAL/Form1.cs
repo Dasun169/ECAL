@@ -28,5 +28,15 @@ namespace ECAL
             form2.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            if(1 == 1)
+            {
+                form3.Show();
+                this.Hide();
+            }
+        }
     }
 }
