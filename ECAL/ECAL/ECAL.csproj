@@ -141,5 +141,26 @@
   <ItemGroup>
     <None Include="Resources\Login-page-new%281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login-page-new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login-page-new%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculate2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
