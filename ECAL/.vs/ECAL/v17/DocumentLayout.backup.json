@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Projects\\ECAL\\ECAL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|C:\\Projects\\ECAL\\ECAL\\ecal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|solutionrelative:ecal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|c:\\projects\\ecal\\ecal\\ecal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|solutionrelative:ecal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|C:\\Projects\\ECAL\\ECAL\\ecal\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|solutionrelative:ecal\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|C:\\Projects\\ECAL\\ECAL\\ecal\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|solutionrelative:ecal\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|C:\\Projects\\ECAL\\ECAL\\ecal\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|solutionrelative:ecal\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|c:\\projects\\ecal\\ecal\\ecal\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|C:\\Projects\\ECAL\\ECAL\\ecal\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|solutionrelative:ecal\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|C:\\Projects\\ECAL\\ECAL\\ecal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|solutionrelative:ecal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|c:\\projects\\ecal\\ecal\\ecal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|solutionrelative:ecal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|C:\\Projects\\ECAL\\ECAL\\ecal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|solutionrelative:ecal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F92579F5-48BD-4D50-BA60-D94AB81090CC}|ECAL\\ECAL.csproj|C:\\Projects\\ECAL\\ECAL\\ecal\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,20 +50,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Program.cs",
+              "RelativeDocumentMoniker": "ECAL\\Program.cs",
+              "ToolTip": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Program.cs",
+              "RelativeToolTip": "ECAL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:46:51.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form4.cs",
+              "RelativeDocumentMoniker": "ECAL\\Form4.cs",
+              "ToolTip": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form4.cs",
+              "RelativeToolTip": "ECAL\\Form4.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA0wCEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:43:24.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form4.cs",
+              "RelativeDocumentMoniker": "ECAL\\Form4.cs",
+              "ToolTip": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form4.cs [Design]",
+              "RelativeToolTip": "ECAL\\Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:42:16.12Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form1.cs",
               "RelativeDocumentMoniker": "ECAL\\Form1.cs",
               "ToolTip": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form1.cs",
               "RelativeToolTip": "ECAL\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA7wCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T19:12:46.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form1.cs",
               "RelativeDocumentMoniker": "ECAL\\Form1.cs",
@@ -63,40 +112,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form3.cs",
               "RelativeDocumentMoniker": "ECAL\\Form3.cs",
               "ToolTip": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form3.cs",
               "RelativeToolTip": "ECAL\\Form3.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAmwJYAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAApwE8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T17:42:47.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T17:42:47.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form3.cs",
               "RelativeDocumentMoniker": "ECAL\\Form3.cs",
               "ToolTip": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form3.cs [Design]",
               "RelativeToolTip": "ECAL\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T17:42:22.976Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-21T17:42:22.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form2.cs",
               "RelativeDocumentMoniker": "ECAL\\Form2.cs",
               "ToolTip": "C:\\Projects\\ECAL\\ECAL\\ECAL\\Form2.cs [Design]",
               "RelativeToolTip": "ECAL\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T17:42:21.325Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-21T17:42:21.325Z"
             }
           ]
         }
