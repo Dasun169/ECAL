@@ -121,17 +121,17 @@
   <data name="Login-page-new(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login-page-new(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Login-page-new(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Login-page-new(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="19381096_6082664" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19381096_6082664.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="interface_special" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\interface_special.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="interface_special_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\interface_special_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="21861596_6487051" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\21861596_6487051.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,8 +142,20 @@
   <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19381095_6082678" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19381095_6082678.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Login-page-new" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login-page-new.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calculate2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calculate2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,14 +163,14 @@
   <data name="interface31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\interface31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="19381095_6082678" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\19381095_6082678.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Login-page-new(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-page-new(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="interface2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\interface2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="19381096_6082664" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\19381096_6082664.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="interface3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\interface3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,7 +178,7 @@
   <data name="interface1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\interface1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Calculate2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Calculate2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="table-page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\table-page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

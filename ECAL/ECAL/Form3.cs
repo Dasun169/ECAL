@@ -17,6 +17,8 @@ namespace ECAL
         int importCharge = 0;
         int fixedCharge = 0;
         int total = 0;
+        DateTime lastReading;
+        DateTime currentReading;
         public Form3()
         {
             InitializeComponent();
@@ -54,6 +56,7 @@ namespace ECAL
                 dateTimePicker1.Enabled = false;
                 dateTimePicker2.Enabled = false;
                 textBox1.Enabled = true;
+                textBox1.Focus();
             }
         }
 
@@ -64,6 +67,7 @@ namespace ECAL
                 textBox2.Enabled = true;
                 textBox3.Enabled = true;
                 textBox4.Enabled = false;
+                textBox2.Focus();
             }
         }
 
@@ -74,6 +78,7 @@ namespace ECAL
                 textBox2.Enabled = false;
                 textBox3.Enabled = false;
                 textBox4.Enabled = true;
+                textBox4.Focus();
             }
         }
 
@@ -83,8 +88,8 @@ namespace ECAL
             {
                 try
                 {
-                    DateTime lastReading = dateTimePicker1.Value;
-                    DateTime currentReading = dateTimePicker2.Value;
+                    lastReading = dateTimePicker1.Value;
+                    currentReading = dateTimePicker2.Value;
 
                     if (lastReading >= currentReading)
                     {
@@ -108,6 +113,7 @@ namespace ECAL
 
             if (radioButton2.Checked)
             {
+                
                 try
                 {
                     num_of_days = int.Parse(textBox1.Text);
@@ -132,6 +138,7 @@ namespace ECAL
             {
                 try
                 {
+                    textBox2.Focus();
                     int previousMeterReading = int.Parse(textBox2.Text);
                     int currentMeterReading = int.Parse(textBox3.Text);
 
@@ -157,6 +164,7 @@ namespace ECAL
             {
                 try
                 {
+                    textBox4.Focus();
                     units = int.Parse(textBox4.Text);
 
                     if (units < 0)
@@ -189,7 +197,6 @@ namespace ECAL
                     importCharge = (15 * num_of_days * 2) + (18 * num_of_days) + (30 * num_of_days) + (42 * num_of_days * 2) + (65 * (units - (num_of_days * 6)));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else if ((units / num_of_days) > 4)
                 {
@@ -197,7 +204,6 @@ namespace ECAL
                     importCharge = (15 * num_of_days * 2) + (18 * num_of_days) + (30 * num_of_days) + (42 * (units - (num_of_days * 4)));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else if ((units / num_of_days) > 3)
                 {
@@ -205,7 +211,6 @@ namespace ECAL
                     importCharge = (15 * num_of_days * 2) + (18 * num_of_days) + (30 * (units - (num_of_days * 3)));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else if ((units / num_of_days) > 2)
                 {
@@ -213,7 +218,6 @@ namespace ECAL
                     importCharge = (15 * num_of_days * 2) + (18 * (units - (num_of_days * 2)));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else if ((units / num_of_days) > 1)
                 {
@@ -221,7 +225,6 @@ namespace ECAL
                     importCharge = (6 * num_of_days) + (9 * (units - num_of_days));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else
                 {
@@ -229,7 +232,6 @@ namespace ECAL
                     importCharge = 6 * units;
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
             }
             else
@@ -240,7 +242,6 @@ namespace ECAL
                     importCharge = (15 * num_of_days * 2) + (18 * num_of_days) + (30 * num_of_days) + (42 * num_of_days * 2) + (65 * (units - (num_of_days * 6)));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else if ((units / num_of_days) > 4)
                 {
@@ -248,7 +249,6 @@ namespace ECAL
                     importCharge = (15 * num_of_days * 2) + (18 * num_of_days) + (30 * num_of_days) + (42 * (units - (num_of_days * 4)));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else if ((units / num_of_days) > 3)
                 {
@@ -256,7 +256,6 @@ namespace ECAL
                     importCharge = (15 * num_of_days * 2) + (18 * num_of_days) + (30 * (units - (num_of_days * 3)));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else if ((units / num_of_days) > 2)
                 {
@@ -264,7 +263,6 @@ namespace ECAL
                     importCharge = (15 * num_of_days * 2) + (18 * (units - (num_of_days * 2)));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else if ((units / num_of_days) > 1)
                 {
@@ -272,7 +270,6 @@ namespace ECAL
                     importCharge = (6 * num_of_days) + (9 * (units - num_of_days));
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
                 else
                 {
@@ -280,14 +277,27 @@ namespace ECAL
                     importCharge = 6 * units;
                     total = fixedCharge + importCharge;
 
-                    MessageBox.Show("Total fee : " + total, "Electricity Bill Fee");
                 }
             }
+
+            Form5 form5 = new Form5(num_of_days, units, importCharge, fixedCharge, total);
+            form5.Show();
+            this.Hide();
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dateTimePicker1.Value = DateTime.Now;
+            dateTimePicker2.Value = DateTime.Now;
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
         }
     }
 }
