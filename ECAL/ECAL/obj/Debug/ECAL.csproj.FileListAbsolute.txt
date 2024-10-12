@@ -12,3 +12,4 @@ C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.Form2.resources
 C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.Form3.resources
 C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.Form4.resources
 C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.Form5.resources
+C:\Projects\ECAL\ECAL\ECAL\obj\Debug\ECAL.Form6.resources

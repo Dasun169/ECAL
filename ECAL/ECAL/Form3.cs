@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace ECAL
 {
@@ -19,6 +21,12 @@ namespace ECAL
         int total = 0;
         DateTime lastReading;
         DateTime currentReading;
+        string user_name;
+        public Form3(string userName)
+        {
+            InitializeComponent();
+            user_name = userName;
+        }
         public Form3()
         {
             InitializeComponent();
@@ -100,7 +108,7 @@ namespace ECAL
 
                     if (num_of_days == 0)
                     {
-                        throw new Exception("The number of days cannot be zero.");
+                        throw new Exception("The Last Reading and the Current Reading should be difference.");
                     }
 
                 }
@@ -117,6 +125,9 @@ namespace ECAL
                 try
                 {
                     num_of_days = int.Parse(textBox1.Text);
+
+                    lastReading = DateTime.Now;
+                    currentReading = lastReading.AddDays(num_of_days);
 
                     if (num_of_days == 0)
                     {
@@ -276,13 +287,45 @@ namespace ECAL
                     fixedCharge = 100 * (num_of_days / 30);
                     importCharge = 6 * units;
                     total = fixedCharge + importCharge;
-
                 }
             }
 
-            Form5 form5 = new Form5(num_of_days, units, importCharge, fixedCharge, total);
+            InsertData(user_name, lastReading, currentReading, units, total);
+
+            Form5 form5 = new Form5(num_of_days, units, importCharge, fixedCharge, total, user_name);
             form5.Show();
             this.Hide();
+        }
+
+        private void InsertData(string username, DateTime lastReading, DateTime currentReading, int unit, decimal totalFee)
+        {
+            string connectionString = "Server=LAPTOP-TGI88RFU\\MSSQLSERVER01;Database=ecal_db;Integrated Security=True;";
+
+            string query = "INSERT INTO history_tb (UserName, LastReading, CurrentReading, Units, TotalFee) VALUES (@UserName, @LastReading, @CurrentReading, @Unit, @TotalFee)";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@UserName", username);
+                    command.Parameters.AddWithValue("@LastReading", lastReading);
+                    command.Parameters.AddWithValue("@CurrentReading", currentReading);
+                    command.Parameters.AddWithValue("@Unit", unit);
+                    command.Parameters.AddWithValue("@TotalFee", totalFee);
+
+                    try
+                    {
+                        connection.Open();
+
+                        int rowsAffected = command.ExecuteNonQuery();
+
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

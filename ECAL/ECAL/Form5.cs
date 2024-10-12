@@ -19,7 +19,8 @@ namespace ECAL
         private float _total;
         private DateTime _lastReading;
         private DateTime _currentReading;
-        public Form5(int num_of_days, int units, float importCharge, float fixedCharge, float total)
+        private string user_name;
+        public Form5(int num_of_days, int units, float importCharge, float fixedCharge, float total, string userName)
         {
             InitializeComponent();
             _num_of_days = num_of_days;
@@ -27,6 +28,7 @@ namespace ECAL
             _importCharge = importCharge;
             _fixedCharge = fixedCharge;
             _total = total;
+            user_name = userName;
         }
 
         private void Form5_Load(object sender, EventArgs e)
@@ -50,14 +52,14 @@ namespace ECAL
 
         private void btn_calculate_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
+            Form3 form3 = new Form3(user_name);
             form3.Show();
             this.Hide();
         }
 
         private void btn_history_Click(object sender, EventArgs e)
         {
-            Form6 form6 = new Form6();
+            Form6 form6 = new Form6(user_name);
             form6.Show();
             this.Hide();
         }
